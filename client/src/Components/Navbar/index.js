@@ -15,10 +15,6 @@ import {
   
   const headersData = [
     {
-      label: "Contact Us",
-      href: "/#",
-    },
-    {
       label: "Browse",
       href: "/#",
     },
@@ -27,7 +23,7 @@ import {
       href: "/#",
     },
     {
-      label: "Login / Signup",
+      label: "Sign in",
       href: "/#",
     },
   ];
