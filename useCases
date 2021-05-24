@@ -1,0 +1,7 @@
+1) HomePage --> Popular Movies and Tv shows(Images) and if he/she clicks on it. It will redirect them to the login page.
+2) Register ----> Customers Registeration, there will be only 1 Admin.Customer[FirstName,LastName,emailId,Password,Address,Mobile Number].
+3) Login -----> Customer and Admin.[emailId,password].
+4) Dashboard ---> After logging in to the system the user will move to their respective Dashboards.
+    4.A) Admin Dashboard----> Will have choice of deleting a movie or adding new movies.
+    4.B) Customer Dashboard---> Will have the choice to book ticket for a particular movie and to cancel the ticket,Edit personal informations,to Browse movies.
+    [For now i'm not adding payment gateway] 
