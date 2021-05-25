@@ -23,8 +23,8 @@ import {
       href: "/#",
     },
     {
-      label: "Sign in",
-      href: "/#",
+      label: "Sign Up",
+      href: "/signup",
     },
   ];
   
@@ -143,11 +143,13 @@ import {
     };
   
     const femmecubatorLogo = (
+      <Link to= {"/"} style={{ textDecoration: 'none' }}>
       <Button>
-      <Typography variant="h6" component="h1" className={logo}>
-        <Link to="/#" style={{ textDecoration: 'none' }}><span style={{ color: "#fff3b3"}}>{("BookShow")}</span> </Link>
+      <Typography variant="h6" component="h1">
+        <span style={{ color: "#fff3b3"}}>{("BookShow")}</span>
       </Typography>
       </Button>
+      </Link>
     );
   
     const getMenuButtons = () => {

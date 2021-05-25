@@ -3,13 +3,13 @@ import Navbar from "../../Components/Navbar";
 // import Carousel from "../../Components/Carousel";
 import './style.css';
 
-const HomePage=()=>{
+const HomePage = () =>{
 
     return(
-        <>
-        <Navbar />
-        
-        </>
+        <div>
+        <Navbar /> 
+        <div className="Home"></div>
+        </div>
     );
 };
 
