@@ -1,12 +1,19 @@
-body{
-    /* background-color: rgb(64, 90, 3);    */
-    background: -webkit-linear-gradient(to right, #f64f59, #c471ed, #12c2e9);
-    background: linear-gradient(to right, #f64f59, #c471ed, #12c2e9);
 
+.App-header{
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  background: -webkit-linear-gradient(to right, #f64f59, #c471ed, #12c2e9);
+  background: linear-gradient(to right, #f64f59, #c471ed, #12c2e9);
 }
+
   
 form{
-    display: flex;
+  display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;

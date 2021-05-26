@@ -36,8 +36,9 @@ export default function SignIn() {
   const classes = useStyles();
 
   return (
-      <div className="whole">
+      <div className="login">
       <Navbar />
+      <header className="App-header">
     <Container component="main" maxWidth="xs">
       <CssBaseline />
       <div className={classes.paper}>
@@ -91,6 +92,7 @@ export default function SignIn() {
         </form>
       </div>
     </Container>
+    </header>
     </div>
   );
 }

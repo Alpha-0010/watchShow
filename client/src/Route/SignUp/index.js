@@ -37,8 +37,9 @@ export default function SignUp() {
   const classes = useStyles();
 
   return (
-      <div className="whole">
+      <div className="register">
       <Navbar />
+      <header className="App-header">
     <Container component="main" maxWidth="xs">
       <CssBaseline />
       <div className={classes.paper}>
@@ -131,6 +132,7 @@ export default function SignUp() {
         </form>
       </div>
     </Container>
+    </header>
     </div>
   );
 }
