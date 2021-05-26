@@ -37,7 +37,7 @@ export default function SignUp() {
   const classes = useStyles();
 
   return (
-      <div className="App">
+      <div className="whole">
       <Navbar />
     <Container component="main" maxWidth="xs">
       <CssBaseline />
@@ -121,9 +121,11 @@ export default function SignUp() {
           </Button>
           <Grid container justify="flex-end">
             <Grid item>
-              <Link href="#" variant="body2">
+              <Button>
+              <Link href="/#/signin" variant="body2">
                 Already have an account? Sign in
               </Link>
+              </Button>
             </Grid>
           </Grid>
         </form>

@@ -1,11 +1,12 @@
-.whole{
+body{
     /* background-color: rgb(64, 90, 3);    */
     background: -webkit-linear-gradient(to right, #f64f59, #c471ed, #12c2e9);
     background: linear-gradient(to right, #f64f59, #c471ed, #12c2e9);
+
 }
   
 form{
-  display: flex;
+    display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;

@@ -143,7 +143,7 @@ import {
     };
   
     const femmecubatorLogo = (
-      <Link to= {"/"} style={{ textDecoration: 'none' }}>
+      <Link href="/#/" style={{ textDecoration: 'none' }}>
       <Button>
       <Typography variant="h6" component="h1">
         <span style={{ color: "#fff3b3"}}>{("BookShow")}</span>
